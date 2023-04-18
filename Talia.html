@@ -1,0 +1,398 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&display=swap');
+
+    html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #96D3EF;
+    overflow: hidden;
+    animation: bgs 5.45s;
+  }
+
+  @keyframes bgs {
+    0% {
+        background: #000000;
+    }
+
+    17.49% {
+        background: #000000;
+    }
+    17.5% {
+        background: #FAB3D8;
+    }
+
+    29.99% {
+        background: #FAB3D8;
+    }
+    30% {
+        background: #FFE95F;
+    }
+
+    42.49% {
+        background: #FFE95F;
+    }
+    42.5% {
+        background: #96D3EF;
+    }
+
+    54.99% {
+        background: #96D3EF;
+    }
+    55% {
+        background: #000000;
+    }
+
+    68% {
+        background: #000000;
+    }
+    72.5% {
+        background: #ffffff;
+    }
+
+    100% {
+    }
+    
+}
+
+#playby {
+    background-image: url(https://cdn.discordapp.com/attachments/686806389523611711/1059423476580089896/00614-930804417-7B7Bmasterpiece7D7D207B7Bbest_quality7D7D20orange_hair207B7Bshort_hair7D7D20horns20solo_1.png);
+    background-size: contain;
+    background-position: left;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 0%;
+    animation: pbf 5.45s;
+}
+
+@keyframes pbf {
+    0% {
+        left: -5%;
+        opacity: 0;
+    }
+
+    80% {
+        left: -5%;
+        opacity: 0;
+    }
+
+    100% {
+
+    }
+    
+}
+
+#content {
+    display: table-cell;
+    max-width: 100%;
+    width: 60vh;
+    height: 100%;
+    position: absolute;
+    left: 55%;
+}
+
+#desc {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+#name {
+    position: relative;
+    margin: 0% 0 -5% 0;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: contain;
+    object-position: 50% 50%;
+    width: 80vh;
+    font-size: 5vw;
+    color: #FFE32C;
+    animation: namef 10.9s;
+}
+
+@keyframes namef {
+    0% {
+        top: 25%;
+        opacity: 0;
+    }
+
+    48.75% {
+        top: 25%;
+        opacity: 0;
+    }
+
+    55% {
+        top: 25%;
+        opacity: 100%;
+    }
+
+    61.25% {
+        top: 0%;
+        opacity: 100%;
+}
+
+    100% {
+
+    }
+    
+}
+
+#text {
+    font-size: 2vw;
+    font-family: 'Edu TAS Beginner', cursive;
+    color: #FF81C2;
+    animation: descf 10.9s;
+    text-align: center;
+}
+
+@keyframes descf {
+    0% {
+        left: 100%;
+        opacity: 0;
+    }
+
+    61.25% {
+        left: 100%;
+        opacity: 0;
+    }
+
+    67.5% {
+        left: 50%;
+        opacity: 100%;
+}
+
+    100% {
+
+    }
+    
+}
+
+#break1 {
+    position: relative;
+    margin: -35% 0 -15% 0;
+    object-fit: contain;
+    object-position: 50% 50%;
+    width: 60vh;
+    animation: brf 10.9s;
+}
+
+#break2 {
+    position: relative;
+    margin: -5% -2% -5% 0;
+    object-fit: contain;
+    object-position: 50% 50%;
+    width: 40vh;
+    animation: brf 10.9s;
+}
+
+@keyframes brf {
+    0% {
+        opacity: 0;
+    }
+
+    61.25% {
+        opacity: 0;
+    }
+
+    67.5% {
+        opacity: 100%;
+}
+
+    100% {
+
+    }
+    
+}
+
+.center {
+    opacity: 0%;
+    text-align: center;
+}
+#anitext {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 40%;
+}
+#jp {
+    animation: jpf 5.45s;
+    font-size: 5vw;
+}
+#jp::before {
+    content: "";
+    animation: jpf 5.45s;
+    
+}
+@keyframes jpf {
+    0% {
+        color: #000000;
+        opacity: 100%;
+    }
+
+    17.49% {
+        color: #000000;
+    }
+    17.5% {
+        color: #FFE95F;
+        content: "くたばれ！";
+    }
+
+    29.99% {
+        color: #FFE95F;
+        content: "くたばれ！";
+    }
+    30% {
+        color: #96D3EF;
+        content: "ごめんなさい。";
+    }
+
+    42.49% {
+        color: #96D3EF;
+        content: "ごめんなさい。";
+    }
+    42.5% {
+        color: #FF81C2;
+        content: "置いていかないでください...";
+    }
+
+    54.99% {
+        color: #FF81C2;
+        content: "置いていかないでください...";
+    }
+    55% {
+        color: #FFFFFF;
+        content: "私はただ-";
+    }
+
+    68% {
+        color: #FFFFFF;
+        opacity: 100%;
+        content: "私はただ-";
+    }
+    72.5% {
+        color: #FFFFFF;
+        opacity: 0%;
+    }
+
+    100% {
+    }
+}
+#en {
+    animation: enf 5.45s;
+    content: "";
+    font-size: 2.5vw;
+}
+#en::before {
+    content: "";
+    animation: enf 5.45s;
+}
+@keyframes enf {
+    0% {
+        color: #000000;
+        opacity: 100%;
+    }
+
+    17.49% {
+        color: #000000;
+        content: "";
+    }
+    17.5% {
+        color: #FFE95F;
+    }
+
+    17.5% {
+        content: "(Fuck you!)";
+    }
+
+    29.99% {
+        color: #FFE95F;
+        content: "(Fuck you!)"
+    }
+    30% {
+        color: #96D3EF;
+        content: "(I'm sorry.)";
+        
+    }
+
+    42.49% {
+        color: #96D3EF;
+        content: "(I'm sorry.)";
+    }
+    42.5% {
+        color: #FF81C2;
+        content: "(Don't leave me...)";
+    }
+
+    54.99% {
+        color: #FF81C2;
+        content: "(Don't leave me...)";
+    }
+    55% {
+        color: #FFFFFF;
+        content: "(I was only-)";
+    }
+
+    68% {
+        color: #FFFFFF;
+        opacity: 100%;
+        content: "(I was only-)";
+    }
+    72.5% {
+        color: #FFFFFF;
+        opacity: 0%;
+    }
+
+    100% {
+    }
+}
+#vert {
+    vertical-align: middle;
+}
+
+        </style>
+    </head>
+    <body>
+        <div id="all">
+            <div id="anitext">
+                <div id="vert">
+                <div id="jp" class="center"></div>
+                <div id="en" class="center"></div>
+                </div>
+            </div>
+            <div id="playby"></div>
+            <div id="content">
+                <div id="desc">
+                        <img id="name" src="https://cdn.discordapp.com/attachments/686806389523611711/1030165811886825522/talianame.png"></img>
+                        <img id="break1" src="https://cdn.discordapp.com/attachments/686806389523611711/1030176216608669887/taliadiv1.png">
+                        <div id="text">
+                            Forging a path!<br>
+                            A draconian commoner.<br>
+                            Lightly smiling.<br>
+                            <img id="break2" src="https://cdn.discordapp.com/attachments/686806389523611711/1030179385715740672/taliadiv2.png">
+                            <br>
+                            Blacksmith, Lapidary!<br>
+                            Prepare for Trouble.<br>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+    <!-- Modified by Zyn -->
+</html>
