@@ -19,41 +19,34 @@ body {
 
 @keyframes bgs {
     0% {
-        background: #000000;
+        background: #FAB3D8;
     }
 
-    17.49% {
-        background: #000000;
+    17.499% {
+        background: #FAB3D8;
     }
     17.5% {
-        background: #FAB3D8;
+        background: #FFE95F;
     }
 
-    29.99% {
-        background: #FAB3D8;
+    29.999% {
+        background: #FFE95F;
     }
     30% {
-        background: #FFE95F;
+        background: #96D3EF;
     }
 
-    42.49% {
-        background: #FFE95F;
+    42.499% {
+        background: #96D3EF;
     }
     42.5% {
-        background: #96D3EF;
+        background: #000000;
     }
 
-    54.99% {
-        background: #96D3EF;
-    }
     55% {
         background: #000000;
     }
-
-    68% {
-        background: #000000;
-    }
-    72.5% {
+    60% {
         background: #ffffff;
     }
 
@@ -77,13 +70,19 @@ body {
         opacity: 0;
     }
 
-    80% {
+    67.5% {
         left: -5%;
         opacity: 0;
     }
 
-    100% {
+    82.5% {
+        left: 0%;
+        opacity: 100%;
+    }
 
+    100% {
+        left: 0%;
+        opacity: 100%;
     }
     
 }
@@ -123,17 +122,17 @@ body {
         opacity: 0;
     }
 
-    48.75% {
+    42.25% {
         top: 25%;
         opacity: 0;
     }
 
-    55% {
+    47.75% {
         top: 25%;
         opacity: 100%;
     }
 
-    61.25% {
+    52.5% {
         top: 0%;
         opacity: 100%;
 }
@@ -158,12 +157,12 @@ body {
         opacity: 0;
     }
 
-    61.25% {
+    55% {
         left: 100%;
         opacity: 0;
     }
 
-    67.5% {
+    61.25% {
         left: 50%;
         opacity: 100%;
 }
@@ -236,51 +235,45 @@ body {
 
 @keyframes jpf {
     0% {
-        color: #000000;
+        color: #FFE95F;
         opacity: 100%;
+        content: "くたばれ！";
     }
 
-    17.49% {
-        color: #000000;
+    17.499% {
+        color: #FFE95F;
+        content: "くたばれ！";
     }
     17.5% {
-        color: #FFE95F;
-        content: "くたばれ！";
+        color: #96D3EF;
+        content: "ごめんなさい。";
     }
 
-    29.99% {
-        color: #FFE95F;
-        content: "くたばれ！";
+    29.999% {
+        color: #96D3EF;
+        content: "ごめんなさい。";
     }
     30% {
-        color: #96D3EF;
-        content: "ごめんなさい。";
+        color: #FF81C2;
+        content: "置いていかないでください...";
     }
 
-    42.49% {
-        color: #96D3EF;
-        content: "ごめんなさい。";
+    42.499% {
+        color: #FF81C2;
+        content: "置いていかないでください...";
     }
     42.5% {
-        color: #FF81C2;
-        content: "置いていかないでください...";
-    }
-
-    54.99% {
-        color: #FF81C2;
-        content: "置いていかないでください...";
-    }
-    55% {
         color: #FFFFFF;
         content: "私はただ-";
     }
 
-    68% {
+    55% {
         color: #FFFFFF;
         opacity: 100%;
         content: "私はただ-";
     }
-    72.5% {
+
+    60% {
         color: #FFFFFF;
         opacity: 0%;
     }
@@ -302,56 +295,45 @@ body {
 
 @keyframes enf {
     0% {
-        color: #000000;
-        opacity: 100%;
-    }
-
-    17.49% {
-        color: #000000;
-        content: "";
-    }
-    17.5% {
         color: #FFE95F;
-    }
-
-    17.5% {
+        opacity: 100%;
         content: "(Fuck you!)";
     }
 
-    29.99% {
+    17.499% {
         color: #FFE95F;
         content: "(Fuck you!)"
     }
-    30% {
+    17.5% {
         color: #96D3EF;
         content: "(I'm sorry.)";
         
     }
 
-    42.49% {
+    29.999% {
         color: #96D3EF;
         content: "(I'm sorry.)";
     }
-    42.5% {
+    30% {
         color: #FF81C2;
         content: "(Don't leave me...)";
     }
 
-    54.99% {
+    42.499% {
         color: #FF81C2;
         content: "(Don't leave me...)";
     }
-    55% {
+    42.5% {
         color: #FFFFFF;
         content: "(I was only-)";
     }
 
-    68% {
+    55% {
         color: #FFFFFF;
         opacity: 100%;
         content: "(I was only-)";
     }
-    72.5% {
+    60% {
         color: #FFFFFF;
         opacity: 0%;
     }
