@@ -63,13 +63,10 @@ body {
 }
 
 #playby {
-    background-image: url(https://cdn.discordapp.com/attachments/686806389523611711/1059423476580089896/00614-930804417-7B7Bmasterpiece7D7D207B7Bbest_quality7D7D20orange_hair207B7Bshort_hair7D7D20horns20solo_1.png);
-    background-size: contain;
-    background-position: left;
     height: 100%;
     width: 100%;
+    max-width: 50vw;
     position: absolute;
-    background-repeat: no-repeat;
     left: 0%;
     animation: pbf 5.45s;
 }
