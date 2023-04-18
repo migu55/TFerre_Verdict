@@ -1,2 +1,7 @@
 # TFerre_Verdict
-HTML/CSS Character Profile for Verdict
+
+A character description for the roleplaying game, Verdict.
+
+- Profile art is artifically generated using Stable Diffusion
+- Music used is Comedy by Gen Hoshino 
+- Fonts used are from Google Fonts and Dafont.com
